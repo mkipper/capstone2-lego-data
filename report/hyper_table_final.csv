@@ -1,0 +1,5 @@
+sample,train_score,test_score,precision,recall,accuracy,f1_score,model,num_features,num_rows_train,num_rows_test
+balanced,0.9989013233674862,0.9987164007005408,0.9703703703703704,0.9983669025585192,0.9987164007005408,0.9841695733834184,"RandomForestClassifier(class_weight='balanced', n_estimators=1, n_jobs=-1,
+                       random_state=1)",3,827359,91929
+over,0.999402940048896,0.9986184990590564,0.9670792731103502,0.9994556341861732,0.9986184990590564,0.9830009369562306,"RandomForestClassifier(n_estimators=1, n_jobs=-1, random_state=1)",3,1591130,91929
+under,0.9983959237591998,0.9933426883790751,0.857877512856475,0.9989112683723462,0.9933426883790751,0.9230382293762576,"RandomForestClassifier(n_estimators=1, n_jobs=-1, random_state=1)",3,63588,91929

@@ -1,21 +1,21 @@
-sample,desc,train_score,test_score,model,num_features,num_rows,last_feature
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len']",0.999512486632698,0.9975633369230602,"RandomForestClassifier(n_jobs=-1, random_state=1)",4,63588,set_name_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id']",0.9997483801975215,0.9903294934133952,"RandomForestClassifier(n_jobs=-1, random_state=1)",5,63588,color_id
-under,"['year', 'num_parts', 'set_num_len']",0.9949676039504309,0.9885455079463499,"RandomForestClassifier(n_jobs=-1, random_state=1)",3,63588,set_num_len
-under,"['year', 'num_parts']",0.992199786123168,0.9831391617443896,"RandomForestClassifier(n_jobs=-1, random_state=1)",2,63588,num_parts
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity']",0.9997955589104862,0.980202112499864,"RandomForestClassifier(n_jobs=-1, random_state=1)",6,63588,quantity
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans']",0.9997955589104862,0.9708361887978766,"RandomForestClassifier(n_jobs=-1, random_state=1)",7,63588,is_trans
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans', 'part_num_len', 'color_name_len']",0.9998741900987608,0.9679100175135159,"RandomForestClassifier(n_jobs=-1, random_state=1)",9,63588,color_name_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans', 'part_num_len']",0.9998741900987608,0.9559116274516203,"RandomForestClassifier(n_jobs=-1, random_state=1)",8,63588,part_num_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans', 'part_num_len', 'color_name_len', 'part_name_len']",0.9999842737623451,0.9519738058719229,"RandomForestClassifier(n_jobs=-1, random_state=1)",10,63588,part_name_len
-under,"['year', 'num_parts']",0.5471629867270554,0.7393096846479348,LogisticRegression(),2,63588,num_parts
-under,"['year', 'num_parts', 'set_num_len']",0.6244102660879411,0.6511329395511753,LogisticRegression(),3,63588,set_num_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id']",0.6220827829150154,0.6403855149082444,LogisticRegression(),5,63588,color_id
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans']",0.6330911492734478,0.6373288081019047,LogisticRegression(),7,63588,is_trans
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity']",0.6330439705604831,0.6372091505400908,LogisticRegression(),6,63588,quantity
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len']",0.623450965590992,0.637176516659596,LogisticRegression(),4,63588,set_name_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans', 'part_num_len']",0.6332798641253067,0.6358929173601366,LogisticRegression(),8,63588,part_num_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans', 'part_num_len', 'color_name_len']",0.6030854878278921,0.5866919035342493,LogisticRegression(),9,63588,color_name_len
-under,"['year', 'num_parts', 'set_num_len', 'set_name_len', 'color_id', 'quantity', 'is_trans', 'part_num_len', 'color_name_len', 'part_name_len']",0.6022362709945273,0.5830912987196641,LogisticRegression(),10,63588,part_name_len
-under,['year'],0.730137761841857,0.534347159220703,"RandomForestClassifier(n_jobs=-1, random_state=1)",1,63588,year
-under,['year'],0.5,0.03996562564587888,LogisticRegression(),1,63588,year
+sample,missing_feature,train_score,test_score,precision,recall,accuracy,f1_score,model,num_features,num_rows_train,num_rows_test,last_feature
+under,set_num,0.9996540227715921,0.9975524589628952,0.9427471116816432,0.9994556341861731,0.9975524589628952,0.9702734839476813,"RandomForestClassifier(n_jobs=-1, random_state=1)",4,63588,91929,set_name_len
+under,set_num,0.9999056425740706,0.9919285535576369,0.8333333333333334,0.997550353837779,0.9919285535576369,0.9080773042616451,"RandomForestClassifier(n_jobs=-1, random_state=1)",5,63588,91929,color_id
+under,set_num,0.9947317103856074,0.9882409250617324,0.7728899179120186,0.9994556341861731,0.9882409250617324,0.8716913946587538,"RandomForestClassifier(n_jobs=-1, random_state=1)",3,63588,91929,set_num_len
+under,set_num,0.9917594514688306,0.9828454568199372,0.7000572409845449,0.9986390854654328,0.9828454568199372,0.8231071228266966,"RandomForestClassifier(n_jobs=-1, random_state=1)",2,63588,91929,num_parts
+under,set_num,0.9999528212870353,0.9825952637361443,0.6976744186046512,0.9961894393032118,0.9825952637361443,0.820627802690583,"RandomForestClassifier(n_jobs=-1, random_state=1)",6,63588,91929,quantity
+under,set_num,0.9999528212870353,0.9733707535163006,0.6008555445870352,0.9940119760479041,0.9733707535163006,0.748974569319114,"RandomForestClassifier(n_jobs=-1, random_state=1)",7,63588,91929,is_trans
+under,set_num,0.9999685475246902,0.9698789283033645,0.570736282632484,0.9937397931409907,0.9698789283033645,0.7250521298778672,"RandomForestClassifier(n_jobs=-1, random_state=1)",9,63588,91929,color_name_len
+under,set_num,0.9999685475246902,0.9556723123279922,0.47388302722417613,0.9902014153511159,0.9556723123279922,0.6410007928816844,"RandomForestClassifier(n_jobs=-1, random_state=1)",8,63588,91929,part_num_len
+under,set_num,1.0,0.9547041738733153,0.46847658260422026,0.9910179640718563,0.9547041738733153,0.6362047876987594,"RandomForestClassifier(n_jobs=-1, random_state=1)",10,63588,91929,part_name_len
+under,set_num,0.5463294961313455,0.7393096846479348,0.05640330549604303,0.3511159499183451,0.7393096846479348,0.09719344509323789,LogisticRegression(),2,63588,91929,num_parts
+under,set_num,0.6192992388500975,0.6541135006363606,0.06641793345872776,0.5862819814915623,0.6541135006363606,0.11931865392604903,LogisticRegression(),3,63588,91929,set_num_len
+under,set_num,0.6203057180600113,0.6427025204233702,0.06496062992125984,0.592814371257485,0.6427025204233702,0.11709047900650502,LogisticRegression(),5,63588,91929,color_id
+under,set_num,0.6313455368937535,0.6406030741115426,0.06682401534149579,0.6164942841589548,0.6406030741115426,0.12057813622933802,LogisticRegression(),7,63588,91929,is_trans
+under,set_num,0.6311410958042398,0.640439904709069,0.06679445591271012,0.6164942841589548,0.640439904709069,0.12053001277139207,LogisticRegression(),6,63588,91929,quantity
+under,set_num,0.6262345096559099,0.639101915608785,0.06606853949110163,0.6113228089275994,0.639101915608785,0.1192492500464573,LogisticRegression(),4,63588,91929,set_name_len
+under,set_num,0.6312040007548594,0.6377639265085011,0.0662371888726208,0.6156777354382145,0.6377639265085011,0.11960659898477159,LogisticRegression(),8,63588,91929,part_num_len
+under,set_num,0.6173020066679248,0.627516888033156,0.06316451354750201,0.6015242242787153,0.627516888033156,0.11432414256893075,LogisticRegression(),9,63588,91929,color_name_len
+under,set_num,0.6014971378247468,0.6165845380674216,0.06047275663334911,0.5911812738160044,0.6165845380674216,0.10972190649390015,LogisticRegression(),10,63588,91929,part_name_len
+under,set_num,0.7320249103604454,0.534347159220703,0.07537055925692832,0.9452912357103974,0.534347159220703,0.1396096717785862,"RandomForestClassifier(n_jobs=-1, random_state=1)",1,63588,91929,year
+under,set_num,0.5,0.03996562564587888,0.03996562564587888,1.0,0.03996562564587888,0.0768595127767957,LogisticRegression(),1,63588,91929,year
