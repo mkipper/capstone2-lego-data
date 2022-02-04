@@ -1,2 +1,20 @@
 sample,train_score,test_score,precision,recall,accuracy,f1_score,model,num_features,num_rows_train,num_rows_test
-over,0.9994029400488961,0.9986184990590564,0.9670792731103502,0.9994556341861731,0.9986184990590564,0.9830009369562306,"RandomForestClassifier(n_estimators=1, n_jobs=-1, random_state=1)",3,1591130,91929
+over,0.8851570896155563,0.7916979408021407,0.12069219079366636,0.6701143168209036,0.7916979408021407,0.20454451044738922,"RandomForestClassifier(n_estimators=200, n_jobs=-1, random_state=1)",7,1591130,91929
+over,0.7892956578029451,0.6772291659867942,0.09961190168175937,0.8802395209580839,0.6772291659867942,0.1789706696181516,"XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.300000012,
+              max_delta_step=0, max_depth=6, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=100, n_jobs=8,
+              num_parallel_tree=1, predictor='auto', random_state=1,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)",7,827359,91929
+over,0.8274377329319414,0.7189352652590586,0.10876932853209066,0.8385955362003267,0.7189352652590586,0.19256250000000003,"XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
+              colsample_bynode=1, colsample_bytree=1, enable_categorical=False,
+              gamma=0, gpu_id=-1, importance_type=None,
+              interaction_constraints='', learning_rate=0.2, max_delta_step=0,
+              max_depth=9, min_child_weight=1, missing=nan,
+              monotone_constraints='()', n_estimators=200, n_jobs=8,
+              num_parallel_tree=1, predictor='auto', random_state=1,
+              reg_alpha=0, reg_lambda=1, scale_pos_weight=1, subsample=1,
+              tree_method='exact', validate_parameters=1, verbosity=None)",7,827359,91929
